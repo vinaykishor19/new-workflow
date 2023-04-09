@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+}
+.column{
+    
+}
+.header{
+    font-weight: 700;
+    color: white;
+    background-color: rgb(69, 144, 179);
+    border: 2px solid black;
+    padding: 10px 30px;
+}
+.even{
+    background-color: rgb(220, 240, 250);
+}
+.odd{
+    background-color: rgb(171, 220, 243);
+}
+a{
+    /* text-decoration: none; */
+    color: black;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 10px 30px;
+    font-weight: 500;
+}
